@@ -46,16 +46,34 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Form1.cs">
+    <Compile Include="Quan_ly_lop_hoc.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Form1.Designer.cs">
-      <DependentUpon>Form1.cs</DependentUpon>
+    <Compile Include="Quan_ly_lop_hoc.Designer.cs">
+      <DependentUpon>Quan_ly_lop_hoc.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Trang_dang_nhap.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Trang_dang_nhap.Designer.cs">
+      <DependentUpon>Trang_dang_nhap.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Quan_ly_sinh_vien.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Quan_ly_sinh_vien.Designer.cs">
+      <DependentUpon>Quan_ly_sinh_vien.cs</DependentUpon>
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <EmbeddedResource Include="Form1.resx">
-      <DependentUpon>Form1.cs</DependentUpon>
+    <EmbeddedResource Include="Quan_ly_lop_hoc.resx">
+      <DependentUpon>Quan_ly_lop_hoc.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Quan_ly_sinh_vien.resx">
+      <DependentUpon>Quan_ly_sinh_vien.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Trang_dang_nhap.resx">
+      <DependentUpon>Trang_dang_nhap.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
