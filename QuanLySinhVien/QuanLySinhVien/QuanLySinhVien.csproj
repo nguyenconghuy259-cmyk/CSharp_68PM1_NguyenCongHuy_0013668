@@ -33,7 +33,9 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
-    <Reference Include="System" />
+    <Reference Include="System">
+      <HintPath>C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.7.2\System.dll</HintPath>
+    </Reference>
     <Reference Include="System.Core" />
     <Reference Include="System.Xml.Linq" />
     <Reference Include="System.Data.DataSetExtensions" />
@@ -46,11 +48,17 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Quan_ly_lop_hoc.cs">
-      <SubType>Form</SubType>
+    <Compile Include="QuanLyLopHoc.cs">
+      <SubType>UserControl</SubType>
     </Compile>
-    <Compile Include="Quan_ly_lop_hoc.Designer.cs">
-      <DependentUpon>Quan_ly_lop_hoc.cs</DependentUpon>
+    <Compile Include="QuanLyLopHoc.Designer.cs">
+      <DependentUpon>QuanLyLopHoc.cs</DependentUpon>
+    </Compile>
+    <Compile Include="QuanLySinhVien.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="QuanLySinhVien.Designer.cs">
+      <DependentUpon>QuanLySinhVien.cs</DependentUpon>
     </Compile>
     <Compile Include="Trang_dang_nhap.cs">
       <SubType>Form</SubType>
@@ -58,19 +66,22 @@
     <Compile Include="Trang_dang_nhap.Designer.cs">
       <DependentUpon>Trang_dang_nhap.cs</DependentUpon>
     </Compile>
-    <Compile Include="Quan_ly_sinh_vien.cs">
+    <Compile Include="form_main.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Quan_ly_sinh_vien.Designer.cs">
-      <DependentUpon>Quan_ly_sinh_vien.cs</DependentUpon>
+    <Compile Include="form_main.Designer.cs">
+      <DependentUpon>form_main.cs</DependentUpon>
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <EmbeddedResource Include="Quan_ly_lop_hoc.resx">
-      <DependentUpon>Quan_ly_lop_hoc.cs</DependentUpon>
+    <EmbeddedResource Include="QuanLyLopHoc.resx">
+      <DependentUpon>QuanLyLopHoc.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Quan_ly_sinh_vien.resx">
-      <DependentUpon>Quan_ly_sinh_vien.cs</DependentUpon>
+    <EmbeddedResource Include="QuanLySinhVien.resx">
+      <DependentUpon>QuanLySinhVien.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="form_main.resx">
+      <DependentUpon>form_main.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Trang_dang_nhap.resx">
       <DependentUpon>Trang_dang_nhap.cs</DependentUpon>

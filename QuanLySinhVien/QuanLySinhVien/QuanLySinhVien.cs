@@ -10,24 +10,14 @@ using System.Windows.Forms;
 
 namespace QuanLySinhVien
 {
-    public partial class Quan_ly_sinh_vien : Form
+    public partial class QuanLySinhVien : UserControl
     {
-        public Quan_ly_sinh_vien()
+        public QuanLySinhVien()
         {
             InitializeComponent();
         }
 
-        private void label1_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void label4_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void textBox2_TextChanged(object sender, EventArgs e)
+        private void QuanLySinhVien_Load(object sender, EventArgs e)
         {
 
         }
